@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+       <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <!-- Introdução: A Cena do Crime -->
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Em uma noite fria e nebulosa em Londres, um corpo é encontrado em um quarto deserto. A cena é perturbadora: a vítima está deitada, sem sinais de luta, mas com uma expressão de terror congelada em seu rosto. Na parede, a palavra "RACHE" está escrita em sangue.  Ao investigar, revela que "RACHE" significa "vingança" em alemão. O que teria levado alguém a buscar vingança de maneira tão brutal?</p>
+            <button class="btn-proximo" data-proximo="1">Examinar o corpo</button>
+            <button class="btn-proximo" data-proximo="2">Investigar a palavra na parede</button>
+        </div>
+    
+        <!-- Examinando o Corpo -->
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo1.png" alt="">
+            <p>Você se aproxima do corpo e percebe que a vítima, um homem de meia-idade, segura um anel de ouro na mão esquerda. Não há sinais de luta, mas a expressão em seu rosto sugere que viu algo terrível antes de morrer. Acredita que o anel pode ser uma pista crucial. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Analisar o anel de perto</button>
+            <button class="btn-proximo" data-proximo="4">Buscar mais pistas no local</button>
+        </div>
+    
+        <!-- Investigando a Palavra "RACHE" -->
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo6.png" alt="">
+            <p> Observa atentamente a palavra "RACHE". Ele explica que é uma palavra alemã que significa "vingança". Será que a vítima estava envolvida em algo que levou alguém a cometer esse crime hediondo? Ou será que é uma pista falsa deixada pelo assassino para despistar a polícia?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar o passado da vítima</button>
+            <button class="btn-proximo" data-proximo="6">Buscar pistas de alguém que fala alemão</button>
+        </div>
+    
+        <!-- Analisando o Anel -->
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo2.png" alt="">
+            <p>O anel de ouro é simples, mas carrega uma inscrição que parece estar em um idioma estrangeiro. Deduz que o anel pode ter pertencido a alguém próximo à vítima. A inscrição menciona "Mormon", o que leva a acreditar que o caso pode estar ligado a uma sociedade secreta ou um grupo religioso com forte presença nos Estados Unidos.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir a pista do anel</button>
+        </div>
+    
+        <!-- Buscando Mais Pistas no Local -->
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.png" alt="">
+            <p>Ao explorar mais o quarto, você encontra uma cápsula vazia de veneno. Parece que a morte da vítima foi planejada para parecer natural, mas algo deu errado. Recolhe a cápsula como prova, acreditando que pode haver uma conexão com o anel encontrado.</p>
+            <button class="btn-proximo" data-proximo="8">Levar a cápsula para análise</button>
+        </div>
+    
+        <!-- Investigando o Passado da Vítima -->
+        <div class="passo" id="passo-5">
+            <p>Você descobre que a vítima era um expatriado americano com um passado obscuro. Em sua juventude, ele fez muitos inimigos e fugiu de Utah para evitar um destino sombrio. As pessoas que ele traiu podem estar por trás dessa vingança. Será que o crime é fruto de uma antiga inimizade?</p>
+            <button class="btn-proximo" data-proximo="9">Explorar Utah e os vínculos da vítima</button>
+        </div>
+    
+        <!-- Buscando Alguém que Fala Alemão -->
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo10.png" alt="">
+            <p>Você descobre que um vizinho da vítima é fluente em alemão e viu alguém suspeito nos arredores no dia do crime. Este vizinho descreve a pessoa como alguém de aparência estrangeira e vestindo roupas que não combinam com o bairro. Será que esse suspeito é o assassino?</p>
+            <button class="btn-proximo" data-proximo="10">Seguir a pista do suspeito</button>
+        </div>
+    
+        <!-- Seguindo a Pista do Anel -->
+        <div class="passo" id="passo-7">
+            <p> descobre que o anel pertencia à esposa da vítima, que faleceu anos atrás em circunstâncias misteriosas. Parece que o passado da vítima está se revelando. O anel é um símbolo de sua conexão com uma sociedade secreta que jurou vingança após a morte da esposa. Agora, você está mais perto de descobrir o verdadeiro culpado.</p>
+            <button class="btn-proximo" data-proximo="11">Confrontar os membros da sociedade</button>
+        </div>
+    
+        <!-- Levar a Cápsula para Análise -->
+        <div class="passo" id="passo-8">
+            <p>A análise da cápsula revela traços de um veneno raro usado em rituais antigos. Conclui que a vítima foi assassinada como parte de uma vingança cuidadosamente planejada. Mas quem teria acesso a um veneno tão incomum?</p>
+            <button class="btn-proximo" data-proximo="12">Investigar possíveis fontes do veneno</button>
+        </div>
+    
+        <!-- Explorando Utah e os Vínculos da Vítima -->
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo8.png" alt="">
+            <p>Em Utah, você descobre registros antigos que ligam a vítima a um grupo de mórmons dissidentes. Estes homens, traídos pela vítima, juraram vingança, e parece que um deles finalmente cumpriu essa promessa. O mistério começa a se desdobrar em uma trama de traição e vingança.</p>
+            <button class="btn-proximo" data-proximo="13">Enfrentar o líder dos dissidentes</button>
+        </div>
+    
+        <!-- Seguindo a Pista do Suspeito -->
+        <div class="passo" id="passo-10">
+            <p>Você segue o suspeito até um armazém abandonado onde ele esconde provas incriminatórias, incluindo cartas que revelam uma trama de vingança planejada há décadas. As peças do quebra-cabeça começam a se encaixar.</p>
+            <button class="btn-proximo" data-proximo="14">Desvendar a verdade no armazém</button>
+        </div>
+    
+        <!-- Desfecho da Aventura -->
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo3.png" alt="">
+            <p>Após confrontar os membros da sociedade secreta, você descobre que o culpado é um velho conhecido da vítima, que sofreu uma grande injustiça. o desmascara em uma reviravolta surpreendente, mostrando que a vingança foi o motivo de todo esse mistério. O caso é finalmente encerrado.</p>
+        </div>
+    
+        <div class="passo" id="passo-12">
+            <img src="cenario-passo5.png" alt="">
+            <p>Você descobre que o veneno foi obtido através de um farmacêutico obscuro que fornece substâncias ilegais para os membros da sociedade secreta. Ao rastrear a origem, consegue desmascarar o assassino e impedir que novos crimes ocorram.</p>
+        </div>
+    
+        <div class="passo" id="passo-13">
+            <img src="cenario-passo7.png" alt="">
+            <p>Enfrentando o líder dos dissidentes, você ouve sua confissão completa: ele planejou o crime por anos, esperando o momento certo para vingar a morte de seu irmão, causada pela traição da vítima. O mistério é solucionado, mas as consequências da vingança deixam uma marca permanente.</p>
+        </div>
+    
+        <div class="passo" id="passo-14">
+            <img src="cenario-passo9.png" alt="">
+            <p>No armazém, você encontra provas suficientes para ligar o suspeito ao crime, incluindo a arma do crime e o veneno. finalmente consegue concluir o caso, revelando ao público a verdade por trás do assassinato e a sombria história de vingança.</p>
+        </div>
+    </main>
+        
+        <script src="script.js"></script>
+    </body>
+    </html>
